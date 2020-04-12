@@ -9,10 +9,12 @@ Installer [Git](https://git-scm.com/download)
 Créer un dossier The Lost Treasure dans **Documents**
 Ouvrir **Git Bash** puis entrer les commandes suivantes
 
-*cd Documents/'The Lost Treasure'*
-*git init*
-*git config --global user.email "votremail@exemplemail.com"*
-*git conig --global user.email*
+```
+cd Documents/'The Lost Treasure'
+git init
+git config --global user.email "votremail@exemplemail.com"
+git conig --global user.email
+```
 > Si votre mail apparaît c'est bon
 
 *git remote add The_Lost_Treasure https://github.com/HFraise/The-Lost-Treasure*
@@ -32,4 +34,4 @@ Puis pour envoyer un fichier, entrer les commandes suivantes
 
 *git add NOM_DU_FICHIER.EXTENSION*
 *git commit -m "Commentaire sur la modification ou l'ajout"*
-*git push origin master*
+*git push The_Lost_Treasure master*
